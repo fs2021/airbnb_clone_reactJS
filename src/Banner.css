@@ -1,0 +1,50 @@
+.banner{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    
+    position: relative;
+    width: 100%;
+   
+}
+.banner_main{
+    background: url(https://a0.muscache.com/im/pictures/prohost-api/Hosting-17341555/original/26311624-b29f-4a8a-91a2-686645e2019e.jpeg?im_w=960);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+}
+.banner_info{
+    background-color: black;
+    color: white;
+    padding-top: 20vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+.banner_info > button{
+    color: white;
+    background-color: rgb(170, 17, 17);
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.banner_info > button:hover{
+    color: rgb(170, 17, 17);
+    background-color: white;
+}
+.banner_info > h5{
+    margin-top: 10px;
+}
+.banner_search{
+    display: flex;
+    flex-direction: column; 
+}
+.banner_searchButton{
+    color: rgb(170, 17, 17) !important; 
+    background-color: white !important;
+    text-transform: inherit !important;
+    /* margin-top: -20px !important; */
+    font-weight: 900 !important;
+}
